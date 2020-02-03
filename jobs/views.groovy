@@ -4,13 +4,15 @@ listView('python') {
 	jobs {
 		regex(/.*python.*/)
 	}
-}
-columns {
-        status()
-        weather()
-        name()
-        lastSuccess()
-        lastFailure()
-        lastDuration()
-        buildButton()
+
+	columns {
+        	status()
+        	weather()
+        	name()
+        	lastSuccess()
+        	lastFailure()
+        	lastDuration()
+        	buildButton()
+	}
+
 }
