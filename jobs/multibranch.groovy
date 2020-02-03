@@ -1,9 +1,10 @@
 multibranchPipelineJob('python-deploy') {
 	triggers {
-		periodic(1)
+		cron(* * * * *)
 	}
 	branchSources {
 		git {
+			id('Repo')
 			remote('git@github.com:alejovaz/test-jenkins-1.git')
 		}
 	}
