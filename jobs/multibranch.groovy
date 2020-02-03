@@ -1,6 +1,6 @@
 multibranchPipelineJob('python-deploy') {
 	triggers {
-		cron('* * * * *')
+		cron('')
 	}
 	branchSources {
 		git {
